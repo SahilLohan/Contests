@@ -1,0 +1,36 @@
+// Link for problem :- https://www.codechef.com/OCT221D/problems/BUILDINGRACE
+
+// code --->
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int T;
+	cin >> T;
+	
+	// declare more variable
+	int A,B,X,Y;
+	float timeA,timeB;
+	while(T--)
+	{
+	    cin >> A >> B >> X >> Y;
+	    timeA=(float)A/(float)X;
+	    timeB=(float)B/(float)Y;
+	    if(timeA<timeB)
+	    {
+	        cout << "Chef\n";
+	    }
+	    else if(timeA>timeB)
+	    {
+	        cout << "Chefina\n";
+	    }
+	    else
+	    {
+	        cout << "Both\n";
+	    }
+	    
+	}
+	return 0;
+}
