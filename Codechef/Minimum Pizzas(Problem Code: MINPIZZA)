@@ -1,0 +1,25 @@
+// Link for problem :- https://www.codechef.com/OCT221D/problems/MINPIZZA
+
+// code ---> 
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int T;
+	cin >> T;
+	
+	// declare more variable
+	int N,X;
+	int temp;
+	while(T--)
+	{
+	    cin >> N >> X;
+	    temp=N*X/4;
+	    
+	    N*X%4==0?cout << temp<< endl:cout << temp+1 << endl;
+	    
+	}
+	return 0;
+}
