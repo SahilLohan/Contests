@@ -1,0 +1,20 @@
+// Link for problem :- https://www.codechef.com/submit/CUTPAPER?tab=statement
+
+
+// code --->
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+	cin>>t;
+    int X,Y;
+	while(t--)
+	{
+	   cin >> X>>Y;
+	   cout << pow(X/Y,2) << endl;
+	}
+	return 0;
+}
