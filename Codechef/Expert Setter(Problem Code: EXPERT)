@@ -1,0 +1,22 @@
+// Link for problem :- https://www.codechef.com/submit/EXPERT?tab=statement
+
+// code --->
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t;
+	cin>>t;
+	
+	float X,Y;
+	while(t--)
+	{
+	    cin>>X>>Y;
+	    if(Y/X>=0.5)
+	    cout << "YES\n";
+	    else
+	    cout<<"NO\n";
+	}
+	return 0;
+}
