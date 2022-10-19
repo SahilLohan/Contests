@@ -1,0 +1,36 @@
+// Link :- https://www.codechef.com/submit/DIFFCONSEC
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int n;
+	
+	// inputs
+	string str;
+	int count=0;
+	
+	// loops
+	while(t--)
+	{
+	    cin>>n;
+	    cin >>str;  
+	    // solver
+	    for(int i=0;i<str.length()-1;i++)
+	    {
+	        if(str[i]==str[i+1])
+	        {
+	            count ++;
+	        }
+	    }
+	    cout<<count<<endl;
+	    count=0;
+	    str.clear();
+	    
+	}
+	return 0;
+}
