@@ -42,21 +42,22 @@ int main(int argc, char *a[])
         }
         else{
             // last se shuru kr de ab ki baar this is right
-             int count=0;
-            int sum=0;
-            int index=arr.size()-1;
+            int count=0;
+            int sum1=0;
+            m=n-m;
             while(count!=m)
             {
-                sum = sum+arr[index--];
+                sum1 = sum1+arr[count];
                 count++;
             }
             
             int sum2 =0;
-            while(index!=0)
+            while(count!=n)
             {
-                sum2 += arr[index--];
+                sum2 += arr[count];
+                count++;
             }
-            cout << sum2-sum << endl;
+            cout << sum2-sum1 << endl;
         }
 
         arr.clear();
