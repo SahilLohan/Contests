@@ -52,16 +52,16 @@ class Solution
 int main()
 {
 	int t;
-	cin >> t;
+	cin >>  t;
 	while(t--)
 	{
 		int n;
 		cin >> n;
-	    string s;
-	    cin >> s;
-	    Solution obj;
-	    int ans = obj.solve(n,s);
-	    cout << ans << "\n";
+	     string s;
+	     cin >> s;
+	     Solution obj;
+	     int ans = obj.solve(n,s);
+	     cout << ans << "\n";
 	}
 
 	return 0;
